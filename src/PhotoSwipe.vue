@@ -106,7 +106,10 @@
 
             close () {
                 this.photoswipe.close()
-            }
+            },
+            getInstance() {
+                return this.photoswipe
+            },
         }
     }
 </script>
