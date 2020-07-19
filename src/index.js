@@ -17,7 +17,8 @@ export default {
             },
             close () {
                 $vm.close()
-            }
+            },
+            photoSwipeInstance: $vm,
         }
 
         Vue.mixin({
